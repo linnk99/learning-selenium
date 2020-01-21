@@ -761,3 +761,13 @@ Exiting due to channel error.
 1579582068556	Marionette	INFO	Stopped listening on port 36131
 1579582070613	Marionette	INFO	Stopped listening on port 42389
 1579582075719	Marionette	INFO	Stopped listening on port 37487
+1579583225566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE02h6R"
+1579583225917	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579583226046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579583226048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579583226048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579583226049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579583227647	Marionette	INFO	Listening on port 45387
+1579583227682	Marionette	WARN	TLS certificate errors will be ignored for this session
+1579583249487	Marionette	INFO	Stopped listening on port 45387
+JavaScript error: https://eus.rubiconproject.com/usync.html?gdpr=0&gdpr_consent=BOtgUXvOtgUXvDlABAENC4-AAAAm-AgAACAAoABsAGAAZAA4ACAAEgALYAZABoADgAHUAPQA-gCKAIwATIAoACiAFsANAAbQBCACKgEcASAAmgBPgClAFuAM4AcgA7QB-gGYASeAm8A, line 12: SecurityError: The operation is insecure.
