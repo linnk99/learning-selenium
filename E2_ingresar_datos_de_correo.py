@@ -11,7 +11,7 @@ user.send_keys(Keys.ENTER)
 sleep(3)
 
 password = driver.find_element_by_name("password")
-password.send_keys("53325332Abc")
+password.send_keys("")
 password.send_keys(Keys.ENTER)
 
 sleep(5)
